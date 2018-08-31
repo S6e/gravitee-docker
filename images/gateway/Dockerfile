@@ -13,7 +13,7 @@
 FROM graviteeio/java:8
 MAINTAINER Gravitee Team <http://gravitee.io>
 
-ARG GRAVITEEIO_VERSION=0
+ARG GRAVITEEIO_VERSION=1.18.1
 ARG KEYCLOAK_PLUGIN_VERSION=1.0.0
 ARG KEYCLOAK_PLUGIN_URL="https://download.gravitee.io/graviteeio-apim/plugins/resources/gravitee-resource-oauth2-provider-keycloak/gravitee-resource-oauth2-provider-keycloak-${KEYCLOAK_PLUGIN_VERSION}.zip"
 ENV GRAVITEEIO_HOME /opt/graviteeio-gateway
